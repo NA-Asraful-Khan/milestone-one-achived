@@ -1,0 +1,176 @@
+/* Default settings */
+body{
+    font-family: 'Merriweather', serif;
+    /* font-family: 'Dancing Script', cursive; */
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 45px;
+}
+h3{
+    font-size: 35px;
+    color: #2d3436;
+}
+h4{
+    font-size: 22px;
+    color: #00b894;
+    margin: 0;
+    padding: 5px 0;
+}
+h5{
+    margin: 0;
+    padding: 0;
+}
+section{  
+    height: 600px;
+}
+.flex{
+    display: flex;
+}
+.flex_col{
+    width: 100%;
+}
+.container{
+    margin: 0 100px;
+}
+.button{
+    display: inline-block;
+    text-decoration: none;
+    color: beige;
+    background-image: linear-gradient(#74b9ff,#0984e3);
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+.text_color{
+    color:#00b894;
+}
+img{
+    width: 100%;
+}
+/* header  */
+.header_left_top{
+    padding-left: 50px;
+    border-left: 8px solid;
+    border-image: linear-gradient(#74b9ff,#0984e3);
+    border-image-slice: 1;
+}
+
+.header_left p{
+    color:#525050;
+    font-weight: bold;
+    padding-bottom: 15px;
+
+}
+.header_right img{
+    width: 80%;
+    padding-left: 100px;
+}
+
+/* my mission  */
+
+.my_mission h2{
+    text-align: center;
+    color: #2d3436;
+}
+.my_mission h3{
+    font-size: 25px;
+}
+.my_mission_col img{
+    width: 50%;
+}
+.mission_col{
+    padding: 50px 50px;
+    margin: 0 30px;
+    height: 350px;
+    border-radius: 20px;
+}
+.vission{
+    background-color: hsla(180, 74%, 72%, 0.4);
+}
+.mission{
+    background-color: hsla(46, 100%, 83%, 0.4);
+}
+.goals{
+    background-color: hsla(11, 90%, 80%, 0.4);
+}
+
+/* develop without limits */
+.limit{
+    background-image: url(./shapes/shape-8.png);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.limit img{
+    width: 75%;
+    padding-left: 15%;
+}
+
+
+
+/* Community  */
+.community{
+    background-image: url(./shapes/shape-9.png);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.community img{
+    width: 75%;
+    padding-left: 15%;
+}
+
+/* about me  */
+.about_me{
+    height: 100%;
+
+}
+.about_me h2{
+    text-align: center;
+}
+
+.about_me h2 span{
+    color:#0984e3;
+}
+
+.about_me_col{
+    background-image: url(./shapes/shape-7.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center center;
+}
+
+.about_me .education div,
+.about_me .experience div{
+    padding: 20px 0 20px 50px;
+    border-left: 8px solid;
+    border-image: linear-gradient(#74b9ff,#0984e3);
+    background-color: white;
+    border-image-slice: 1;
+    box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.4);
+    margin: 20px 20px;
+    
+}
+
+
+/* footer  */
+
+footer{
+    background-color: #2d3436;
+    text-align: center;
+    padding: 10px 0 35px 0;
+    color: #f5f5f5
+}
+footer h3{
+    color: #f5f5f5;
+    font-family: 'Dancing Script', cursive;
+    
+}
+footer h3 span{
+    color:#0984e3
+}
